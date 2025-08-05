@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.MainActivity">
+
+        <TextView
+            android:id="@+id/appHeader_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="App Info"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_infoline1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Developer: Md Mahdi Tajwar Raeed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_infoline2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="E-mail: mahdi05tazwar@gmail.com"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_infoline3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="To report any bug, please reach me through my e-mail."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_infoline4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="The app pulls all the news from NewsAPI. If the app isn't loading any article it may be due to poor internet connection or a temporary issue with the source."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_infoline5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Clicking on any article will redirect you to the article webpage."
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</layout>
