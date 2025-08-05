@@ -1,7 +1,7 @@
 package com.mahditaz.newshub.util;
 
 public class Utils {
-    public static final String API_KEY = "4f612de7adc74bfaa538c80261a66bfb";
+    public static final String API_KEY = APIKeyHolder.API_KEY; // APIKeyHolder.API_KEY will not be on GitHub; developers will have to add their own key here.
     public static final String BASE_URL = "https://newsapi.org/v2/";
     public static final int pageSize = 10;
     public static final String[] articleLanguages = {"en"};

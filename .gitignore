@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-app/src/main/java/com/mahditaz/newshub/util/Utils.java
+app/src/main/java/com/mahditaz/newshub/util/APIKeyHolder.java
